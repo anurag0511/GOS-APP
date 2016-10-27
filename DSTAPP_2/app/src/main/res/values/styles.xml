@@ -1,0 +1,74 @@
+
+
+    <!-- Base application theme. -->
+    <resources>
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+
+        <!--Full Screen Theme-->
+        <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowActionBar">false</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+        </style>
+
+
+        <!--Tabs Theme-->
+
+        <style name="MyTabsTheme" parent="MyTabsTheme.Base">
+
+        </style>
+
+        <style name="MyTabsTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+        <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+            <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+            <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        </style>
+
+
+        <!--DIFFERENT BUTTONS THEMES-->
+
+        <style name="MyWhiteButton">
+            <item name="colorButtonNormal">#FFFFFF</item>
+        </style>
+
+        <style name="MyAccentButton">
+            <item name="colorButtonNormal">@color/colorAccent</item>
+        </style>
+
+
+        <!--TRANSPARENT THEME-->
+
+        <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:backgroundDimEnabled">true</item>
+            <item name="android:backgroundDimAmount">0.5</item>
+            <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+            <item name="android:background">@android:color/transparent</item>
+        </style>
+
+    </resources>
